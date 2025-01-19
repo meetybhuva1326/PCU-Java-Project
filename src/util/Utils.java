@@ -20,4 +20,16 @@ public class Utils {
         return arr;
     }
 
+    public static int inputIntFromUser(String msj){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter " + msj + " : ");
+        return scanner.nextInt();
+    }
+
+    public static double inputDoubleFromUser(String msj){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter " + msj + " : ");
+        return scanner.nextDouble();
+    }
+
 }

@@ -9,7 +9,7 @@ public class VarArgument {
 
         //Variable Argument
         System.out.println(sum(arr));
-        System.out.println(sum(10,20,48));
+        System.out.println(sum(10,20,230,230));
 
         //Overloading Variable Argument
         System.out.println(sum(10,20));
