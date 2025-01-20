@@ -253,4 +253,3 @@ class MathematicalCalculator extends ScientificCalculator {
         printCalculation(sequence.toString());
     }
 }
-
